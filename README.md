@@ -45,3 +45,8 @@ This project focuses on classifying aerial images into disaster categories using
 
 ---
 
+## Future Work
+
+- Integrate semantic segmentation for pixel-level disaster localization
+- Deploy on edge devices or UAVs using TensorFlow Lite or ONNX
+- Real-time video stream inference support
