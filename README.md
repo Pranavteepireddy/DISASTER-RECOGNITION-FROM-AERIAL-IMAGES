@@ -8,12 +8,12 @@ This project focuses on classifying aerial images into disaster categories using
 
 - **Goal**: Accurately classify aerial images into five categories:  
   `Fire`, `Flooded Areas`, `Collapsed Buildings`, `Traffic Incidents`, and `Normal`.
-- **Dataset**: [AIDER Dataset](https://github.com/IITPVisionLab/AIDER) – an annotated dataset of disaster imagery taken from drones.
+- **Dataset**: [AIDER Dataset](https://zenodo.org/records/3888300#.XvCPQUUzaUk) – an annotated dataset of disaster imagery taken from drones.
 - **Best Model**: Fine-tuned MobileNetV2 with >94% test accuracy.
 
 ---
 
-## 🧠 Model Architectures Explored
+## Model Architectures Explored
 
 | Model           | Test Accuracy | Macro F1-Score |
 |----------------|---------------|----------------|
@@ -24,7 +24,7 @@ This project focuses on classifying aerial images into disaster categories using
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
 - **Transfer Learning**: Used MobileNetV2 pretrained on ImageNet, fine-tuned for aerial disaster classification.
 - **Data Augmentation**: Rotation, zoom, brightness jitter, and flipping to reduce overfitting.
@@ -36,30 +36,7 @@ This project focuses on classifying aerial images into disaster categories using
 
 ---
 
-## 🧪 How to Run
-
-1. **Install Requirements**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-2. **Download AIDER Dataset**
-   - [Dataset Link](https://github.com/IITPVisionLab/AIDER)
-   - Extract and place in `./data/` directory
-
-3. **Train the Model**
-    ```bash
-    python train.py
-    ```
-
-4. **Evaluate**
-    ```bash
-    python evaluate.py
-    ```
-
----
-
-## 📊 Results (MobileNetV2)
+## Results (MobileNetV2)
 
 - **Test Accuracy**: 94.6%
 - **Test Loss**: 0.1664
@@ -67,6 +44,4 @@ This project focuses on classifying aerial images into disaster categories using
 - **Weighted F1-Score**: 0.95
 
 ---
-
-## 📁 Project Structure
 
